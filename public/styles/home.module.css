@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.appContainer {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(120deg, #6e00c9, #1c2803, black);
+  color: white;
+  border-bottom: 4px solid #f39c12;
+}
+
+/* Tech Stack */
+.techStack {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.techStack span {
+  font-weight: 600;
+  color: #ffc107;
+  margin-right: 8px;
+}
+
+/* Profile Image */
+.profileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #f39c12;
+  box-shadow: 0px 0px 20px 5px rgba(243, 156, 18, 0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+.profileImage:hover {
+  box-shadow: 0px 0px 5px 3px rgba(243, 16, 1, 0.3);
+  transform: scale(1.1);
+}
+
+/* Cards */
+.strip {
+  background: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.strip:hover {
+  transform: translateY(-5px);
+}

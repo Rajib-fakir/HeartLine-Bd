@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /login
+
+# Host
+Host: https://heartlinebd.netlify.app/
+
+# Sitemaps
+Sitemap: https://heartlinebd.netlify.app/sitemap.xml

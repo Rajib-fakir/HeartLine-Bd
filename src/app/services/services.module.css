@@ -1,0 +1,13 @@
+.serviceMain {
+  background: linear-gradient(to top right, #f8f9fa, #ffffff);
+}
+
+.serviceCard {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1rem;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
