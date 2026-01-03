@@ -37,7 +37,7 @@ export const metadata = generateMetadata({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <meta name="google-site-verification" content="G2EekyPtjqfmT1H48y4fHvoCwCVUtEqr-z4lPs57i0I" />
+
       <body className="body">
       <ThemeProvider />
       <Navbar />
