@@ -12,36 +12,18 @@ import ThemeProvider from "@/components/ThemeProvider"
 
 
 export const metadata = generateMetadata({
-  title: "Home | Rajib Fakir | Full-Stack Web Developer",
-  description: "Welcome to the portfolio of Rajib Fakir, a passionate and skilled full-stack web developer specializing in building modern, responsive, and high-performance websites and web applications using HTML, CSS, JavaScript, React, Next.js, Node.js, MongoDB, and Bootstrap.",
+  title: "HeartLine BD ",
+  description: "welcome to heartline BD ",
   path: "/",
   image: "/images/favicon.ico",
   keywords: [
-    "Rajib Fakir",
-    "Home",
-    "Web Developer",
-    "Full-Stack Developer",
-    "React Developer",
-    "Next.js Developer",
-    "JavaScript Developer",
-    "Frontend Developer",
-    "Backend Developer",
-    "Node.js",
-    "MongoDB",
-    "Bootstrap",
-    "HTML",
-    "CSS",
-    "Rajib Hasan",
-    "Freelance Web Developer",
-    "Modern Web Design",
-    "Responsive Websites",
-    "Personal Portfolio"
+    "sad","motivational","Islamic"
   ],
-  author: "Rajib Fakir",
+  author: "Orovindo dev",
   jobTitle: "Full-Stack Web Developer",
-  email: "mailto:rajib01943075658@gmail.com",
+  email: "mailto:r.a.j.i.b.0.1.9.4.3.0.7.5.6.5.8.@gmail.com",
   sameAs: [
-    "https://www.facebook.com/profile.php?id=100092192364083"
+    "https://www.facebook.com/profile.php?id=61583884526652"
   ],
 });
 
@@ -52,6 +34,7 @@ export const metadata = generateMetadata({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <meta name="google-site-verification" content="G2EekyPtjqfmT1H48y4fHvoCwCVUtEqr-z4lPs57i0I" />
       <body className="body">
       <ThemeProvider />
       <Navbar />
