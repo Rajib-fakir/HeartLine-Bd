@@ -14,6 +14,9 @@ import ThemeProvider from "@/components/ThemeProvider"
 export const metadata = generateMetadata({
   title: "HeartLine BD ",
   description: "welcome to heartline BD ",
+  verification: {
+    google: 'G2EekyPtjqfmT1H48y4fHvoCwCVUtEqr-z4lPs57i0I',
+  },
   path: "/",
   image: "/images/favicon.ico",
   keywords: [
