@@ -164,7 +164,7 @@ export default function AboutClient({ page, posts }) {
       <section className="container py-5">
         <h2 className="text-center fw-bold mb-4">আমাদের উদ্দেশ্য</h2>
         <p className="lead text-center text-muted mx-auto" style={{ maxWidth: "800px" }}>
-          আমাদের লক্ষ্য হলো— বাস্তব জীবনের কিছু কথা তুলে ধরা, হতাশাকে আশায় রূপ দেওয়া এবং ইসলামী শিক্ষার আলো ছড়িয়ে দেওয়া।
+          আমাদের লক্ষ্য হলো— বাস্তব জীবনের কিছু কথা তুলে ধরা, হতাশাকে আশায় রূপ দেওয়া।
         </p>
       </section>
 
